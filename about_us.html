@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/images/encore_logo-crop.png" type="image/icon type">
+    <title>Car Chauffeurs | Cab booking services</title>
+
+    <!--Cascading Style Sheets link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/card_css/style.css">
+    <link rel="stylesheet" href="assets/card_css/swiper-bundle.min.css">
+    <!-- for jQuery cdn link -->
+    <script src="assets/js/jQuery.min.js"></script>
+    <!-- fonts icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+    /* BackGround Images */
+    #bg-img {
+        background-image: url(assets/images/elegant-uber-driver-giving-taxi-ride\ \(1\).jpg);
+    }
+
+    #third_content_id_for_bg {
+        background-image: url(assets/images/futuristic-urban-downtown-surface-exterior-financial.jpg);
+    }
+
+    #fifth_content {
+        background-image: url(assets/images/Happy\ Customer\ at\ a\ Car\ Wash.jpg);
+    }
+
+    #sixth_content {
+        .place_container {
+            #place_card_1 {
+                background-image: url(assets/images/licensed-image.jpg);
+            }
+
+            #place_card_2 {
+                background-image: url(assets/images/licensed-image1.jpg);
+            }
+
+            #place_card_3 {
+                background-image: url(assets/images/licensed-image2.jpg);
+            }
+        }
+    }
+
+    #seventh_content {
+        .bg_image {
+            background-image: url(assets/images/u.jpg);
+        }
+    }
+
+    #ninth_content {
+        background-image: url(assets/images/pexels-nickoloui-1102159.jpg);
+    }
+
+    /* @media screen and (max-width: 768px) {
+    .header-top {
+      display: none;
+    }
+  } */
+</style>
+
+<body>
+    <!--navbar-->
+    <section>
+        <header>
+            <div class="header-top">
+                <div class="container">
+                    <div>
+                        <div class="right_info">
+                            <div><a href="#"><i class="fa fa-phone" aria-hidden="true"></i> +1 (203) 213-4567</a></div>
+                            <div><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> info@random.com.au</a>
+                            </div>
+                            <div><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 24 x 7 Open</a></div>
+                        </div>
+                        <div class="left_info">
+                            <div class="header_button_top">
+                                <a href="">BOOK NOW</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-main ">
+                <div class="container">
+                    <nav id='cssmenu'>
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/images/encore_logo.png"></a>
+                        </div>
+                        <div id="head-mobile"></div>
+                        <div class="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+                            aria-controls="offcanvasWithBothOptions"></div>
+                        <ul>
+                            <li><a class="navbar_anchor" id="index" href='index.html'>HOME</a></li>
+                            <li><a class="navbar_anchor" id="about" href='about_us.html'>ABOUT US</a></li>
+                            <li><a class="navbar_anchor" id="services" href='our_services.html'>OUR SERVICS</a>
+                                <ul>
+                                    <li><a href='#'>Airport Transfers Melbourne</a></li>
+                                    <li><a href='#'>Conference & Evnets Transfers</a></li>
+                                    <li><a href='#'>Corporate Travel</a></li>
+                                    <li><a href='#'>Ship Cruise Transfers Melbourne</a></li>
+                                    <li><a href='#'>Hotel Transfers Melbourne</a></li>
+                                    <li><a href='#'>Privat Tour Melbourne</a></li>
+                                    <li><a href='#'>Wedding Chauffeurs melbourne</a></li>
+                                    <li><a href='#'>Special Events</a></li>
+                                    <li><a href='#'>VHA Hire Cars Melbourne</a></li>
+                                </ul>
+                            <li><a class="navbar_anchor" id="booking" href='#'>ONLINE BOOKING</a></li>
+                            <li><a class="navbar_anchor" id="blog" href='blog.html'>BLOG</a></li>
+                            <li><a class="navbar_anchor" id="contact" href='contact.html'>CONTACT US</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </section>
+
+    <!-- offcanvas -->
+    <section>
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" style="background-color: #efefee;" tabindex="-1"
+            id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <div class="offcanvas-title" id="offcanvasWithBothOptionsLabel"><a href="index.html"><img
+                            src="assets/images/encore_logo.png" class="offcanvas-logo" alt="logo"></a></div>
+                <!-- <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5> -->
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="header-for-mobile">
+                    <ul>
+                        <li><a href="index.html">Home </a></li>
+                        <hr>
+                        <li><a href="about_us.html">About us</a></li>
+                        <hr>
+                        <li><a href="our_services.html">Our Services</a></li>
+                        <hr>
+                        <ul id="menu">
+                            <li><a href="#">Airport Transfers Melbourne</a></li>
+                            <li><a href="#">Conference & Events Transfers</a></li>
+                            <li><a href="#">Corporate Travel</a></li>
+                            <li><a href="#">Ship Cruise Transfers Melbourne</a></li>
+                            <li><a href="#">Hotel Transfers Melbourne</a></li>
+                            <li><a href="#">Private Tours Melbourne</a></li>
+                            <li><a href="#">Special Events</a></li>
+                            <li><a href="#">VHA Hire Cars Melbourne</a></li>
+                            <li><a href="#">Wedding Chauffeurs Melbourne</a></li>
+                        </ul>
+                        <li><a href="">Online Booking</a></li>
+                        <hr>
+                        <li><a href="blog.html">Blog</a></li>
+                        <hr>
+                        <li><a href="contact.html">Contact</a></li>
+                        <hr>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- abu-main-content -->
+ <div class="container-fluid">
+
+ </div>
+    <!-- footer -->
+    <section>
+        <!-- top footer. -->
+        <div class="container-fluid " id="footer-_top">
+            <div class="container py-5  	">
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                        <h1>Call us for Group Bookings and Business related quarries,
+                            Cab Ride is here to help you anytime.</h1>
+                    </div>
+                    <div class="col-lg-6 mx-auto text-center">
+                        <i class="fa fa-phone"></i>
+                        <h6>CALL US NOW</h6>
+                        <h1>069-78455577</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main footer -->
+        <div class="footer_new_2">
+            <footer class="new_footer_area bg_color">
+                <div class="new_footer_top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s"
+                                    style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                                    <h3 class="f-title f_600 t_color f_size_18">About CarChauffeurs</h3>
+                                    <p>Where quality meets affordability. We understand the importance of a smooth and
+                                        enjoyable journey
+                                        without the burden of excessive costs. Thats why we have meticulously crafted
+                                        our offerings to
+                                        provide you with top-notch vehicles at minimum expense.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 mb-5">
+                                <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s"
+                                    style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                                    <h3 class="f-title f_600 t_color f_size_18">Popular Places</h3>
+                                    <ul class="list-unstyled f_list">
+                                        <li><a href="#">Buller Snow City Transfers</a></li>
+                                        <li><a href="#">River Cruise City Transfers</a></li>
+                                        <li><a href="#">Yarra River Trade Fair ios</a></li>
+                                        <li><a href="#">Mt Buller Snow Trade Fair</a></li>
+                                        <li><a href="#">Valley Wine City Transfers</a></li>
+                                        <li><a href="#">Port of Melbourne & Dockland City Transfers</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-6 mb-5">
+                                <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s"
+                                    style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                                    <h3 class="f-title f_600 t_color f_size_18">Quick Links</h3>
+                                    <ul class="list-unstyled f_list">
+                                        <li><a href="#">Modify Booking</a></li>
+                                        <li><a href="#">Cancle Booking</a></li>
+                                        <li><a href="#">Become partner</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s"
+                                    style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                                    <div class="f_social_icon">
+                                        <a href="#" class="fa fa-facebook"></a>
+                                        <a href="#" class="fa fa-twitter"></a>
+                                        <a href="#" class="fa fa-linkedin"></a>
+                                        <a href="#" class="fa fa-youtube"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_bg">
+                        <div class="footer_bg_one"></div>
+                        <div class="footer_bg_two"></div>
+                    </div>
+                </div>
+                <div class="footer_bottom">
+                    <hr>
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 col-sm-7">
+                                <p><i class="fa fa-suitcase mx-3" style="color: #db6930;"></i>CarChauffeurs Z213 NWE
+                                    Hyperquery road
+                                    melbourne Australia.</p>
+                                <p><a href=""><i class="fa fa-phone mx-3" style="color: #db6930;"></i>+92 344
+                                        1234567</a></p>
+                                <p><a href=""><i class="fa fa-envelope mx-3"
+                                            style="color: #db6930;"></i>info@carchauffeurs.com</a></p>
+                            </div>
+                            <div class="col-lg-6 col-sm-5 text-right">
+                                <h5>Payments Accepted Securely</h5>
+                                <p>secured by 256-bit encryption</p>
+                                <div class="payments_logo">
+                                    <img src="assets/images/applepay_logo.png" alt="">
+                                    <img src="assets/images/visa_white_logo.png" alt="">
+                                    <img src="assets/images/mastercard_logo.png" alt="">
+                                    <img src="assets/images/paypal-logo-200px.png" alt="">
+                                    <img src="assets/images/gpay_logo.png" alt="">
+                                    <img src="assets/images/DCI_logo_light.png" alt="">
+                                    <img src="assets/images/giropay_logo.png" alt="">
+                                    <img src="assets/images/amex_logo.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 col-sm-7">
+                                <p style="color: #b7b7b7; font-size: 0.956rem;">© 2023 - 2024 Car Chauffeurs - All
+                                    rights reserved.</p>
+                            </div>
+                            <div class="col-lg-6 col-sm-5 text-right">
+                                Lorem ipsum dolor sit amet.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+    <!-- JavaScript links -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jQuery.js"></script>
+    <script src="assets/card_js/swiper-bundle.min.js"></script>
+    <script src="assets/card_js/script.js"></script>
+    <script src="assets/js/style.js"></script>
+</body>
+
+</html>

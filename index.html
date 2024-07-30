@@ -1,0 +1,976 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="assets/images/encore_logo-crop.png" type="image/icon type">
+  <title>Car Chauffeurs | Cab booking services</title>
+
+  <!--Cascading Style Sheets link -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/card_css/style.css">
+  <link rel="stylesheet" href="assets/card_css/swiper-bundle.min.css">
+  <!-- for jQuery cdn link -->
+  <script src="assets/js/jQuery.min.js"></script>
+  <!-- fonts icon  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+  /* BackGround Images */
+  #bg-img {
+    background-image: url(assets/images/elegant-uber-driver-giving-taxi-ride\ \(1\).jpg);
+  }
+
+  #third_content_id_for_bg {
+    background-image: url(assets/images/futuristic-urban-downtown-surface-exterior-financial.jpg);
+  }
+
+  #fifth_content {
+    background-image: url(assets/images/Happy\ Customer\ at\ a\ Car\ Wash.jpg);
+  }
+
+  #sixth_content {
+    .place_container {
+      #place_card_1 {
+        background-image: url(assets/images/licensed-image.jpg);
+      }
+
+      #place_card_2 {
+        background-image: url(assets/images/licensed-image1.jpg);
+      }
+
+      #place_card_3 {
+        background-image: url(assets/images/licensed-image2.jpg);
+      }
+    }
+  }
+
+  #seventh_content {
+    .bg_image {
+      background-image: url(assets/images/u.jpg);
+    }
+  }
+
+  #ninth_content {
+    background-image: url(assets/images/pexels-nickoloui-1102159.jpg);
+  }
+
+  /* @media screen and (max-width: 768px) {
+    .header-top {
+      display: none;
+    }
+  } */
+</style>
+
+<body>
+  <!--navbar-->
+  <section>
+    <header>
+      <div class="header-top">
+        <div class="container">
+          <div>
+            <div class="right_info">
+              <div><a href="#"><i class="fa fa-phone" aria-hidden="true"></i> +1 (203) 213-4567</a></div>
+              <div><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> info@random.com.au</a></div>
+              <div><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 24 x 7 Open</a></div>
+            </div>
+            <div class="left_info">
+              <div class="header_button_top">
+                <a href="">BOOK NOW</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="header-main ">
+        <div class="container">
+          <nav id='cssmenu'>
+            <div class="logo">
+              <a href="index.html"><img src="assets/images/encore_logo.png"></a>
+            </div>
+            <div id="head-mobile"></div>
+            <div class="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+              aria-controls="offcanvasWithBothOptions"></div>
+            <ul>
+              <li><a class="navbar_anchor" id="index" href='index.html'>HOME</a></li>
+              <li><a class="navbar_anchor" id="about" href='about_us.html'>ABOUT US</a></li>
+              <li><a class="navbar_anchor" id="services" href='our_services.html'>OUR SERVICS</a>
+                <ul>
+                  <li><a href='#'>Airport Transfers Melbourne</a></li>
+                  <li><a href='#'>Conference & Evnets Transfers</a></li>
+                  <li><a href='#'>Corporate Travel</a></li>
+                  <li><a href='#'>Ship Cruise Transfers Melbourne</a></li>
+                  <li><a href='#'>Hotel Transfers Melbourne</a></li>
+                  <li><a href='#'>Privat Tour Melbourne</a></li>
+                  <li><a href='#'>Wedding Chauffeurs melbourne</a></li>
+                  <li><a href='#'>Special Events</a></li>
+                  <li><a href='#'>VHA Hire Cars Melbourne</a></li>
+                </ul>
+              <li><a class="navbar_anchor" id="booking" href='#'>ONLINE BOOKING</a></li>
+              <li><a class="navbar_anchor" id="blog" href='blog.html'>BLOG</a></li>
+              <li><a class="navbar_anchor" id="contact" href='contact.html'>CONTACT US</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+  </section>
+
+  <!-- offcanvas -->
+  <section>
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" style="background-color: #efefee;" tabindex="-1"
+      id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+      <div class="offcanvas-header">
+        <div class="offcanvas-title" id="offcanvasWithBothOptionsLabel"><a href="index.html"><img
+              src="assets/images/encore_logo.png" class="offcanvas-logo" alt="logo"></a></div>
+        <!-- <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5> -->
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="header-for-mobile">
+          <ul>
+            <li><a href="index.html">Home </a></li>
+            <hr>
+            <li><a href="about_us.html">About us</a></li>
+            <hr>
+            <li><a href="our_services.html">Our Services</a></li>
+            <hr>
+            <ul id="menu">
+              <li><a href="#">Airport Transfers Melbourne</a></li>
+              <li><a href="#">Conference & Events Transfers</a></li>
+              <li><a href="#">Corporate Travel</a></li>
+              <li><a href="#">Ship Cruise Transfers Melbourne</a></li>
+              <li><a href="#">Hotel Transfers Melbourne</a></li>
+              <li><a href="#">Private Tours Melbourne</a></li>
+              <li><a href="#">Special Events</a></li>
+              <li><a href="#">VHA Hire Cars Melbourne</a></li>
+              <li><a href="#">Wedding Chauffeurs Melbourne</a></li>
+            </ul>
+            <li><a href="">Online Booking</a></li>
+            <hr>
+            <li><a href="blog.html">Blog</a></li>
+            <hr>
+            <li><a href="contact.html">Contact</a></li>
+            <hr>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--main Content-->
+  <section>
+    <div class="container-fluid mb-4" id="bg-img">
+      <div class="row" style="padding-top: 150px;">
+        <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+          <div class="heading_main_content">
+            <h6>AUSTRALIA'S PREMIUM CHAUFFEURS SERVICES
+              <hr class="mx-auto"
+                style="background-color: #efefee; height: 2px; margin-top: 2px; opacity: 0.9; width: 38%;">
+            </h6>
+            <div class="title">
+              <span class="block"></span>
+              <h1>Our Best Car<span></span></h1>
+            </div>
+            <div class="role">
+              <div class="block"></div>
+              <h1>Chauffeurs Services
+                in</h1>
+            </div>
+            <h1>
+              <span>
+                <section class="animation">
+                  <div class="first">
+                    <div>MELBOURNE</div>
+                  </div>
+                  <div class="second">
+                    <div>SYDNEY</div>
+                  </div>
+                  <div class="third">
+                    <div>BRISBANE</div>
+                  </div>
+                </section>
+              </span>
+            </h1>
+          </div>
+          <div class="m_c_button">
+            <button class="btn btn-lg" style=" background-color: #efefee; color: #1b293a; font-weight: 600;">BOOK
+              NOW</button>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-10 col-sm-10 mx-auto">
+          <div class="row">
+            <div class="col-xl-8 col-lg-10 col-md-10 col-sm-10">
+              <div class="form-for-reservation">
+                <h1>Reserve Car Now</h1>
+                <hr style="background-color: #efefee; height: 2px; margin-top: 2px; opacity: 0.9;">
+                <form action="">
+                  <div class="row g-2">
+                    <div class="col-sm my-3">
+                      <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com"
+                          value="">
+                        <label for="floatingInputGrid">Name</label>
+                      </div>
+                    </div>
+                    <div class="col-sm my-3">
+                      <div class="form-floating">
+                        <div class="form-floating">
+                          <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com"
+                            value="">
+                          <label for="floatingInputGrid">Email address</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Your Phone</label>
+                  </div>
+                  <div class="row g-2">
+                    <div class="col-sm my-3">
+                      <div class="form-floating">
+                        <select class="form-select" id="floatingSelectGrid">
+                          <option selected>Please choose an option</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                        <label for="floatingSelectGrid">Select Your Car Choice</label>
+                      </div>
+                    </div>
+                    <div class="col-sm my-3">
+                      <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com"
+                          value="">
+                        <label for="floatingInputGrid">Number of Passenger</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row g-2">
+                    <div class="col-sm my-3">
+                      <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com"
+                          value="">
+                        <label for="floatingInputGrid">Pickup Location</label>
+                      </div>
+                    </div>
+                    <div class="col-sm my-3">
+                      <div class="form-floating">
+                        <div class="form-floating">
+                          <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com"
+                            value="">
+                          <label for="floatingInputGrid">Drop of Location</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row g-2">
+                    <div class="col-sm my-3">
+                      <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com"
+                          value="">
+                        <label for="floatingInputGrid">Pickup Date</label>
+                      </div>
+                    </div>
+                    <div class="col-sm my-3">
+                      <div class="form-floating">
+                        <div class="form-floating">
+                          <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com"
+                            value="">
+                          <label for="floatingInputGrid">Pickup Time</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                      style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">If you have any special message then write here</label>
+                  </div>
+                  <button class="btn btn-lg" style="width: 100%; background-color: #1b293a; color: #fff;">GET A
+                    QUOTE</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Second Content -->
+  <section>
+    <div class="container" id="second_container">
+      <div class="container">
+        <div class="row" id="heading_testimonials">
+          <h1 class="text-center my-5">Customer Testimonials
+          </h1>
+          <div class="col-lg-2 mx-auto">
+            <h1>City & Intercity Rides</h1>
+          </div>
+          <div class="col-lg-2 mx-auto">
+            <h4>Stress-free Intercity Travel</h4>
+            <p>Relax and enjoy the scenery as we seamlessly connect you to other major cities in Australia</p>
+          </div>
+          <div class="col-lg-2 mx-auto">
+            <h4>Professional Drivers</h4>
+            <p>Experience the comfort and safety of our licensed and insured drivers.</p>
+          </div>
+          <div class="col-lg-2 mx-auto">
+            <h4>On-demand Convenience</h4>
+            <p>Book a ride instantly through our user-friendly app or website</p>
+          </div>
+        </div>
+      </div>
+      <div class="container container--testimonials">
+        <div class="testimonial">
+          <p class="testimonial__text mb-25">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam tenetur nemo suscipit fuga dolore impedit
+            molestias aut modi quos! Qui.
+          </p>
+
+          <div class="testimonial__details">
+            <div class="testimonial__img">
+              <img src="assets/images/C-1.avif" alt="">
+            </div>
+            <div class="testimonial__info">
+              <h4 class="testimonial__name">Timmy Dicki</h4>
+              <h5 class="testimonial__job">Railroad Engineer</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <p class="testimonial__text mb-25">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, blanditiis. Atque a autem omnis iste!
+          </p>
+
+          <div class="testimonial__details">
+            <div class="testimonial__img">
+              <img src="assets/images/C-2.avif" alt="">
+            </div>
+            <div class="testimonial__info">
+              <h4 class="testimonial__name">
+                Valerie King</h4>
+              <h5 class="testimonial__job">Customer Service Representative</h5>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <p class="testimonial__text mb-25">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, explicabo laborum deserunt blanditiis
+            ratione dignissimos expedita aliquid aliquam iste accusantium, vero sed harum quasi.
+          </p>
+
+          <div class="testimonial__details">
+            <div class="testimonial__img">
+
+              <img src="assets/images/C-3.avif" alt="">
+            </div>
+            <div class="testimonial__info">
+              <h4 class="testimonial__name">Terrell O'Keefe</h4>
+              <h5 class="testimonial__job">Marketing Professional</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- third Content image animation -->
+  <section>
+    <div class="container-fluid my-4" id="third_content_id_for_bg">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="third_heading mt-5">
+            <h6>We value the time and quality of travel for each of our clients</h6>
+            <h1 class="display-1">Incredible <br>Comfort</h1>
+            <button class="btn btn-lg">BOOK NOW</button>
+          </div>
+          <div class="car_img_animation">
+            <!-- <img src="assets/images/about-limmo-large.webp" class="image" id="animatedImage" alt=""> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Forth content cards carousel -->
+  <section>
+    <div class="container" id="fourth_container">
+      <!-- carousel -->
+      <div class="heading_fourth_content">
+        <h3>Our Vehicle Fleet</h3>
+        <p>Driving your dreams to reality with an exquisite fleet of versatile vehicles for unforgettable journeys</p>
+      </div>
+      <div class="container_card swiper">
+        <div class="slide-container">
+          <div class="card-wrapper swiper-wrapper">
+            <div class="card_carousel swiper-slide">
+              <div class="image-box">
+                <a href="#"><img src="assets/images/toyota_corolla_black-removebg-preview.png" class="img-fluid"
+                    alt="" /></a>
+              </div>
+              <div class="profile-details">
+                <div class="name-job">
+                  <h3 class="name">Cab Ride M <i class="fa fa-heart like-button" id="like-button"></i><span
+                      id="like-count">0</span><i class="fa fa-user-o"></i></h3>
+                </div>
+              </div>
+            </div>
+            <div class="card_carousel swiper-slide">
+              <div class="image-box">
+                <a href=""> <img src="assets/images/hyundai_staria_black-removebg-preview.png" alt="" /></a>
+              </div>
+              <div class="profile-details">
+                <div class="name-job">
+                  <h3 class="name">Cab Ride XL <i class="fa fa-heart like-button" id="like-button-2"></i><span
+                      id="like-count-2">0</span><i class="fa fa-user-o"></i></h3>
+                </div>
+              </div>
+            </div>
+            <div class="card_carousel swiper-slide  ">
+              <div class="image-box">
+                <a href=""><img src="assets/images/benz_s_class_black-removebg-preview.png" alt="" /></a>
+              </div>
+              <div class="profile-details">
+                <div class="name-job">
+                  <h3 class="name">Cab Ride VIP <i class="fa fa-heart like-button" id="like-button-3"></i><span
+                      id="like-count-3">0</span><i class="fa fa-user-o"></i></h3>
+                </div>
+              </div>
+            </div>
+            <div class="card_carousel swiper-slide">
+              <div class="image-box">
+                <a href=""><img src="assets/images/benz_v_class_black-removebg-preview.png  " alt="" /></a>
+              </div>
+              <div class="profile-details">
+                <div class="name-job">
+                  <h3 class="name">Cab Ride VIP XL <i class="fa fa-heart like-button" id="like-button-4"></i><span
+                      id="like-count-4">0</span><i class="fa fa-user-o"></i></h3>
+                </div>
+              </div>
+            </div>
+            <div class="card_carousel swiper-slide">
+              <div class="image-box">
+                <a href=""> <img src="assets/images/cabride_bus_sprinter-removebg-preview.png" alt="" /></a>
+              </div>
+              <div class="profile-details">
+                <div class="name-job">
+                  <h3 class="name">Cab Ride Bus <i class="fa fa-heart like-button" id="like-button-5"></i><span
+                      id="like-count-5">0</span><i class="fa fa-user-o"></i></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- fifth content -->
+  <section>
+    <div class="container-fluid" id="fifth_content">
+      <div class="container">
+        <div class="row ">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="heading_fifth">
+              <h1>We offer customers a wide range of <span>Services</span> und <br> <span>Luxury Cars</span> for any
+                travel or occasion.</h1>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="heading_fifth">
+              <p>Indulge in a superior travel experience with our cab service. Immerse yourself in cleanliness and
+                hygiene
+                as we prioritize your well-being with meticulously maintained vehicles. Our premium fleet offers comfort
+                and
+                style, complemented by well-trained drivers committed to your safety. Enjoy flexibility with our 4-hour
+                free
+                cancellation policy, ensuring peace of mind for unexpected changes. Experience affordability without
+                compromise, as our transparent rates cater to your budget. Elevate your journey with a combination of
+                cleanliness, luxury vehicles, skilled drivers, and customer-friendly policies. Choose us for a reliable
+                and
+                exceptional cab service that goes beyond transportation, ensuring your satisfaction at every turn.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+              <h1>78209</h1>
+              <h5>Complete Orders</h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+              <h1>20219</h1>
+              <h5>Happy Customers</h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+              <h1>109</h1>
+              <h5>Vehicles Fleet</h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+              <h1>7</h1>
+              <h5>Years Experience</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- sixth content -->
+  <section>
+    <div class="container" id="sixth_content">
+      <div class="heading_main_sixth">
+        <h2>Famous Attractions</h2>
+        <p>Discover the attractive and famous places all around Australia.</p>
+      </div>
+      <div class="row place_container">
+        <div class="col-lg-4 col-md-12 col-sm-12 mx-auto">
+          <div class="place_cards" id="place_card_1">
+            <div class="heading">
+              <h3>Melbourne</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aliquam voluptatem id, asperiores
+                eveniet
+                labore saepe ratione at dignissimos quo laborum. Neque illo officia soluta adipisci id quibusdam
+                consectetur
+                at!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 mx-auto">
+          <div class="place_cards" id="place_card_2">
+            <div class="heading">
+              <h3>Sydney</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aliquam voluptatem id, asperiores
+                eveniet
+                labore saepe ratione at dignissimos quo laborum. Neque illo officia soluta adipisci id quibusdam
+                consectetur
+                at!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 mx-auto">
+          <div class="place_cards" id="place_card_3">
+            <div class="heading">
+              <h3>Brisbane</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aliquam voluptatem id, asperiores
+                eveniet
+                labore saepe ratione at dignissimos quo laborum. Neque illo officia soluta adipisci id quibusdam
+                consectetur
+                at!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="place_container">
+        <div class="place_cards" id="place_card_1">
+          <div class="heading">
+            <h3>Melbourne</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aliquam voluptatem id, asperiores eveniet
+              labore saepe ratione at dignissimos quo laborum. Neque illo officia soluta adipisci id quibusdam
+              consectetur
+              at!</p>
+          </div>
+        </div>
+        <div class="place_cards" id="place_card_2">
+          <div class="heading">
+            <h3>Sydney</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aliquam voluptatem id, asperiores eveniet
+              labore saepe ratione at dignissimos quo laborum. Neque illo officia soluta adipisci id quibusdam
+              consectetur
+              at!</p>
+          </div>
+        </div>
+        <div class="place_cards" id="place_card_3">
+          <div class="heading">
+            <h3>Brisbane</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aliquam voluptatem id, asperiores eveniet
+              labore saepe ratione at dignissimos quo laborum. Neque illo officia soluta adipisci id quibusdam
+              consectetur
+              at!</p>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </section>
+
+  <!-- seventh Content -->
+  <section>
+    <div class="container-fluid" id="seventh_content">
+      <div class="row my-auto">
+        <div class="col-lg-6 bg_image">
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 bg_color_seventh">
+          <div class="row">
+            <div class="col-md-10 col-sm-10">
+              <div class="seven-m-c">
+                <div class="heading_seventh">
+                  <h1>Only Quality For Clients</h1>
+                </div>
+                <div class="buttons_seventh">
+                  <button class="btn btn-lg" id="button_1" onclick="showParagraph(1)">LUXURY</button>
+                  <button class="btn btn-lg" id="button_2" onclick="showParagraph(2)">COMFORT</button>
+                  <button class="btn btn-lg" id="button_3" onclick="showParagraph(3)">PRESTIGE</button>
+                </div>
+                <div class="seven-m-p">
+                  <p id="para_1">
+                    Luxury in a Mercedes S-Class epitomizes opulence and comfort. Passengers experience the pinnacle of
+                    automotive
+                    sophistication with plush leather, cutting-edge technology, and a smooth, whisper-quiet ride.
+                    Impeccable
+                    craftsmanship, refined aesthetics, and personalized service redefine travel, ensuring an indulgent
+                    journey
+                    that exceeds expectations at every turn.</p>
+                  <p id="para_2" style="display: none;">
+                    Experience ultimate comfort with a premium sedan cab service known for its plush interiors, advanced
+                    climate
+                    control, and whisper-quiet ride. Revel in spacious, leather-clad seats, cutting-edge technology, and
+                    a
+                    smooth,
+                    responsive drive. Elevate your journey with unrivaled luxury, where every detail is meticulously
+                    crafted for
+                    a
+                    refined travel experience.
+                  </p>
+                  <p id="para_3" style="display: none;">
+                    Prestige in this luxury cab service is epitomized by a seamless fusion of opulence and performance.
+                    Exuding
+                    sophistication, the fleet showcases cutting-edge technology, plush interiors, and chauffeurs
+                    embodying
+                    professionalism. A symbol of elegance, it elevates the travel experience, setting a benchmark for
+                    refined,
+                    prestigious transportation in the industry.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- eight content  -->
+  <section>
+    <div class="container" id="eight_content">
+      <div class="heading">
+        <h1>Our Features</h1>
+        <p>Discover a world of convenience, safety, and customization, paving the way for unforgettable adventures and
+          seamless mobility solutions.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="row">
+            <div class="col-lg-12 left-col">
+              <h5>First class Premium services</h5>
+              <p>Experience luxury on the move with our Premium Cab Service. Impeccable comfort, prompt service, and
+                chauffeurs dedicated to your satisfaction. Elevate your journey with us.</p>
+            </div>
+            <div class="col-lg-12 left-col">
+              <h5>Hygene and Clean</h5>
+              <p>
+                Experience the epitome of hygiene and cleanliness with our cab service. Immaculately maintained vehicles
+                for a safe and comfortable journey. Your well-being, our priority
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div>
+            <img src="assets/images/pngwing.com.png" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="row">
+            <div class="col-lg-12 right-col">
+              <h5>Quality at affordable rates</h5>
+              <p>Experience premium transportation without breaking the bank. Our cab service offers quality rides at
+                unbeatable rates, ensuring a smooth journey that fits your budget seamlessly.</p>
+            </div>
+            <div class="col-lg-12 right-col">
+              <h5>12 Hours Free Cancellation</h5>
+              <p>
+                Enjoy worry-free travel with our cab service! Benefit from free cancellation up to 12 hours before your
+                ride. Book now for flexibility and peace of mind!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ninth Content -->
+  <section>
+    <div class="container-fluid" id="ninth_content">
+      <div class="container">
+        <h1>Airport Transfer </h1>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-8 mx-auto">
+            <div>
+              <h4>Stress-free Arrivals</h4>
+              <p>
+                Skip the taxi queue and pre-book your ride. Our drivers will be waiting for you, ready to whisk you away
+                in comfort.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-8 mx-auto">
+            <div>
+              <h4>Fixed-fare Transparency</h4>
+              <p>
+                Know your price upfront with no hidden fees. Enjoy the peace of mind of pre-booked, all-inclusive fares.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-8 mx-auto">
+            <div>
+              <h4>Wide Range Of Vehicles</h4>
+              <p>
+                Choose from sedans, suvs, or minivans to accommodate any group size and luggage requirements.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-8 mx-auto">
+            <div>
+              <h4>Meet & Greet Service</h4>
+              <p>
+                Opt for a personalized welcome at the airport for a truly hassle-free arrival.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- tenth content -->
+  <section>
+    <div class="container-fluid" id="tenth_content">
+      <div class="heading_tenth">
+        <h1>Have Any Questions?</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div>
+            <ul id="accordion" class="accordion">
+              <li>
+                <div class="link">How do i book the cap ? <i class="fa fa-chevron-down"></i></div>
+                <ul class="submenu">
+                  <p>Visit Home page, Select number of people, next search pickup location example: Frankfurt Main
+                    Station or Frankfurt Airport, select available pickup location. and search and select drop location.
+                    Enter date, Hour and Minute and Click search.</p>
+                </ul>
+              </li>
+              <li>
+                <div class="link">What is minimum cap rate ? <i class="fa fa-chevron-down"></i></div>
+                <ul class="submenu">
+                  <p>Our Cabride M starts at €10. Enjoy the journey at afforable price.</p>
+                </ul>
+              </li>
+              <li>
+                <div class="link">What kind of Cab do I need ? <i class="fa fa-chevron-down"></i></div>
+                <ul class="submenu">
+                  <p>Based on no of people you may choose the cab. Do not worry, Free cancellation is possible before 4
+                    Hours of start of Journey.</p>
+                </ul>
+              </li>
+              <li>
+                <div class="link"></i>I"m travelling with child, Do you offer child Seat ?<i
+                    class="fa fa-chevron-down"></i></div>
+                <ul class="submenu">
+                  <p>Yes, We do offer child seat at no extra price and Booster seat also available. Please select child
+                    seat during reservation. You can book up to 2 child seats</p>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div>
+            <ul id="s_accordion" class="s_accordion">
+              <li>
+                <div class="link">Can i pay with credit card ? <i class="fa fa-chevron-down"></i></div>
+                <ul class="submenu">
+                  <p>Yes, you can pay with credit card at payment section. We accept all major credit and Debit cards.
+                  </p>
+                </ul>
+              </li>
+              <li>
+                <div class="link">Can i cancle my reservation ? <i class="fa fa-chevron-down"></i></div>
+                <ul class="submenu">
+                  <p>
+                    Yes, You can cancel the booking. Free cancellation before 4 Hours of start of journey and We will
+                    charge 50% if no show or cancel after 4 Hours .
+                  </p>
+                </ul>
+              </li>
+              <li>
+                <div class="link">Is it possible extend my trip ? <i class="fa fa-chevron-down"></i></div>
+                <ul class="submenu">
+                  <p>
+                    Yes, We are happy to offer and extensions of trips at affordable prices. More you travel lesser you
+                    pay.
+                  </p>
+                </ul>
+              </li>
+              <li>
+                <div class="link"></i>i already cancelled, But not recieved the booking ammount ?<i
+                    class="fa fa-chevron-down"></i></div>
+                <ul class="submenu">
+                  <p>
+                    You will receive the booking amount within 14 days of cancellation.
+                  </p>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <section>
+    <!-- top footer. -->
+    <div class="container-fluid " id="footer-_top">
+      <div class="container py-5  	">
+        <div class="row">
+          <div class="col-lg-6 mx-auto">
+            <h1>Call us for Group Bookings and Business related quarries,
+              Cab Ride is here to help you anytime.</h1>
+          </div>
+          <div class="col-lg-6 mx-auto text-center">
+            <i class="fa fa-phone"></i>
+            <h6>CALL US NOW</h6>
+            <h1>069-78455577</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main footer -->
+    <div class="footer_new_2">
+      <footer class="new_footer_area bg_color">
+        <div class="new_footer_top">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s"
+                  style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                  <h3 class="f-title f_600 t_color f_size_18">About CarChauffeurs</h3>
+                  <p>Where quality meets affordability. We understand the importance of a smooth and enjoyable journey
+                    without the burden of excessive costs. Thats why we have meticulously crafted our offerings to
+                    provide you with top-notch vehicles at minimum expense.</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-5">
+                <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s"
+                  style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                  <h3 class="f-title f_600 t_color f_size_18">Popular Places</h3>
+                  <ul class="list-unstyled f_list">
+                    <li><a href="#">Buller Snow City Transfers</a></li>
+                    <li><a href="#">River Cruise City Transfers</a></li>
+                    <li><a href="#">Yarra River Trade Fair ios</a></li>
+                    <li><a href="#">Mt Buller Snow Trade Fair</a></li>
+                    <li><a href="#">Valley Wine City Transfers</a></li>
+                    <li><a href="#">Port of Melbourne & Dockland City Transfers</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-6 mb-5">
+                <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s"
+                  style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                  <h3 class="f-title f_600 t_color f_size_18">Quick Links</h3>
+                  <ul class="list-unstyled f_list">
+                    <li><a href="#">Modify Booking</a></li>
+                    <li><a href="#">Cancle Booking</a></li>
+                    <li><a href="#">Become partner</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s"
+                  style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                  <div class="f_social_icon">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer_bg">
+            <div class="footer_bg_one"></div>
+            <div class="footer_bg_two"></div>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <hr>
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6 col-sm-7">
+                <p><i class="fa fa-suitcase mx-3" style="color: #db6930;"></i>CarChauffeurs Z213 NWE Hyperquery road
+                  melbourne Australia.</p>
+                <p><a href=""><i class="fa fa-phone mx-3" style="color: #db6930;"></i>+92 344 1234567</a></p>
+                <p><a href=""><i class="fa fa-envelope mx-3" style="color: #db6930;"></i>info@carchauffeurs.com</a></p>
+              </div>
+              <div class="col-lg-6 col-sm-5 text-right">
+                <h5>Payments Accepted Securely</h5>
+                <p>secured by 256-bit encryption</p>
+                <div class="payments_logo">
+                  <img src="assets/images/applepay_logo.png" alt="">
+                  <img src="assets/images/visa_white_logo.png" alt="">
+                  <img src="assets/images/mastercard_logo.png" alt="">
+                  <img src="assets/images/paypal-logo-200px.png" alt="">
+                  <img src="assets/images/gpay_logo.png" alt="">
+                  <img src="assets/images/DCI_logo_light.png" alt="">
+                  <img src="assets/images/giropay_logo.png" alt="">
+                  <img src="assets/images/amex_logo.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6 col-sm-7">
+                <p style="color: #b7b7b7; font-size: 0.956rem;">© 2023 - 2024 Car Chauffeurs - All rights reserved.</p>
+              </div>
+              <div class="col-lg-6 col-sm-5 text-right">
+                Lorem ipsum dolor sit amet.
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <!-- JavaScript links -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jQuery.js"></script>
+  <script src="assets/card_js/swiper-bundle.min.js"></script>
+  <script src="assets/card_js/script.js"></script>
+  <script src="assets/js/style.js"></script>
+</body>
+
+</html>
